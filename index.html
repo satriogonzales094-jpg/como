@@ -1,0 +1,203 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <!-- Basic page settings -->
+  <meta charset="UTF-8">
+  <!-- This line makes the page fit phone screens -->
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Como 1907 | The Pride of Lake Como</title>
+
+  <!-- Connect our CSS file -->
+  <link rel="stylesheet" href="style.css">
+</head>
+<body>
+
+  <!-- ===== NAVIGATION BAR ===== -->
+  <!-- Each link's href matches the id of a section below (for example href="#about" -> id="about") -->
+  <header class="navbar">
+    <a href="#home" class="logo-link">
+      <img src="images/logo.png" alt="Como 1907 logo" class="logo">
+    </a>
+
+    <nav>
+      <ul class="nav-links">
+        <li><a href="#home">Home</a></li>
+        <li><a href="#about">About</a></li>
+        <li><a href="#manager">Manager</a></li>
+        <li><a href="#players">Players</a></li>
+        <li><a href="#match">Match</a></li>
+        <li><a href="#kits">Kits</a></li>
+        <li><a href="#contact">Contact</a></li>
+      </ul>
+    </nav>
+  </header>
+
+  <main>
+
+    <!-- ===== HOME SECTION ===== -->
+    <section id="home" class="home">
+      <img src="images/team.jpg" alt="Como 1907 team photograph" class="team-photo">
+
+      <div class="home-text">
+        <h1>COMO 1907</h1>
+        <h2>The Pride of Lake Como</h2>
+        <p>
+          Como 1907 is an Italian football club from the city of Como, in the north of Italy.
+          The club plays in Serie A, the top league in Italian football, and is proud
+          of its home beside one of Europe's most beautiful lakes.
+        </p>
+      </div>
+    </section>
+
+    <!-- ===== ABOUT SECTION ===== -->
+    <section id="about" class="about">
+      <h2 class="section-title">About the Club</h2>
+
+      <div class="about-content">
+        <div class="about-text">
+          <p>
+            Como 1907 was founded in <strong>1907</strong>, which is why the year is part of the club's name.
+            The club is based in the city of Como, on the southern shore of Lake Como in Lombardy, Italy.
+          </p>
+          <p>
+            Como plays its home games at the <strong>Stadio Giuseppe Sinigaglia</strong>,
+            a stadium right next to the lake. Its blue shirts and its lakeside setting make
+            the club easy to recognise.
+          </p>
+
+          <!-- Quick facts list -->
+          <ul class="facts">
+            <li><strong>Founded:</strong> 1907</li>
+            <li><strong>City:</strong> Como, Italy</li>
+            <li><strong>Stadium:</strong> Stadio Giuseppe Sinigaglia</li>
+          </ul>
+        </div>
+
+        <img src="images/stadium.jpg" alt="Stadio Giuseppe Sinigaglia next to Lake Como" class="stadium-photo">
+      </div>
+    </section>
+
+    <!-- ===== MANAGER SECTION ===== -->
+    <section id="manager" class="manager">
+      <h2 class="section-title">Manager</h2>
+
+      <!-- White card with the photo on the left and text on the right -->
+      <div class="manager-card">
+        <img src="images/manager.jpg" alt="Cesc Fabregas" class="manager-photo">
+
+        <div class="manager-text">
+          <h3>CESC FABREGAS</h3>
+          <p>Position: Head Coach</p>
+          <p>
+            Cesc Fabregas is a Spanish former midfielder who played for Barcelona, Arsenal,
+            Chelsea and Spain, and won the 2010 World Cup. He ended his playing career at Como
+            and became the club's head coach for the first Serie A season after promotion.
+          </p>
+        </div>
+      </div>
+    </section>
+
+    <!-- ===== PLAYERS SECTION ===== -->
+    <section id="players" class="players">
+      <h2 class="section-title">Players</h2>
+
+      <div class="player-grid">
+
+        <!-- PLAYER CARD 1: change the name and position text to edit a card -->
+        <article class="player-card">
+          <img src="images/player1.jpg" alt="Nico Paz" class="player-photo">
+          <h3>NICO PAZ</h3>
+          <p>Position: Attacking Midfielder (CAM)</p>
+        </article>
+
+        <!-- PLAYER CARD 2 -->
+        <article class="player-card">
+          <img src="images/player2.jpg" alt="Martin Baturina" class="player-photo">
+          <h3>MARTIN BATURINA</h3>
+          <p>Position: Central Midfielder (CM)</p>
+        </article>
+
+        <!-- PLAYER CARD 3 -->
+        <article class="player-card">
+          <img src="images/player3.jpg" alt="Maximo Perrone" class="player-photo">
+          <h3>MAXIMO PERRONE</h3>
+          <p>Position: Defensive Midfielder (CDM)</p>
+        </article>
+
+      </div>
+    </section>
+
+    <!-- ===== BEST MATCH SECTION ===== -->
+    <section id="match" class="match">
+      <h2 class="section-title">Best Match</h2>
+
+      <!-- White card: match graphic on the left, details on the right -->
+      <div class="match-card">
+        <img src="images/match.jpg" alt="Como 1907 4-1 Manchester United match graphic" class="match-photo">
+
+        <div class="match-text">
+          <h3>Como 1907 4 - 1 Manchester United</h3>
+          <p class="match-info">UEFA Champions League, 21 October 2026<br>Stadio Giuseppe Sinigaglia, Como</p>
+          <p>
+            Como beat Manchester United 4-1 at home in the Champions League.
+            Como scored after just two minutes and never let up.
+          </p>
+
+          <!-- Goal list -->
+          <ul class="goals">
+            <li><strong>2'</strong> Nico Paz (Como)</li>
+            <li><strong>49'</strong> Anastasios Douvikas (Como)</li>
+            <li><strong>57'</strong> Nico Paz (Como)</li>
+            <li><strong>76'</strong> Jacobo Ramon (Como)</li>
+            <li><strong>90+1'</strong> Joshua Zirkzee (Manchester United)</li>
+          </ul>
+        </div>
+      </div>
+    </section>
+
+    <!-- ===== KITS SECTION ===== -->
+    <section id="kits" class="kits">
+      <h2 class="section-title">Kits</h2>
+
+      <div class="kit-grid">
+
+        <!-- HOME KIT -->
+        <article class="kit-card">
+          <img src="images/kit-home.jpg" alt="Como 1907 blue home kit" class="kit-photo">
+          <h3>Home Kit</h3>
+          <p>The classic blue shirt worn at the Stadio Giuseppe Sinigaglia.</p>
+        </article>
+
+        <!-- AWAY KIT -->
+        <article class="kit-card">
+          <img src="images/kit-away.jpg" alt="Como 1907 white away kit" class="kit-photo">
+          <h3>Away Kit</h3>
+          <p>The white shirt with blue details, worn in games away from home.</p>
+        </article>
+
+      </div>
+    </section>
+
+    <!-- ===== CONTACT SECTION ===== -->
+    <section id="contact" class="contact">
+      <h2 class="section-title">Contact</h2>
+
+      <!-- Lake Como photograph -->
+      <img src="images/lake.jpg" alt="Houses and a church tower beside Lake Como" class="lake-photo">
+      <p>
+        This is a fan project. For news, fixtures, tickets and official contact details,
+        please visit the club's official website.
+      </p>
+      <!-- target="_blank" opens the link in a new tab -->
+      <a href="https://comofootball.com/" target="_blank" rel="noopener" class="button">Visit the official website</a>
+    </section>
+
+  </main>
+
+  <!-- ===== FOOTER ===== -->
+  <footer class="footer">
+    <p>Como 1907 fan website. This is a school project and is not the official club site.</p>
+  </footer>
+
+</body>
+</html>
